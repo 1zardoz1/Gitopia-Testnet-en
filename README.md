@@ -46,7 +46,7 @@ make install
 
 **version: 1.2.0**
 ```
-gitopiad version --long
+gitopiad version 
 ```
 *Start*
 ```
