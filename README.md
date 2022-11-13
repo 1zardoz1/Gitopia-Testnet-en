@@ -4,4 +4,9 @@
 
 *Gitopia is an open source Web3 application that offers decentralized code collaboration*
 
+*System Requirements*
+|  CPU  |    RAM     |     SSD    |  
+|-------|------------|------------|
+|   4   |   8-16     |    400+    |
+
 
