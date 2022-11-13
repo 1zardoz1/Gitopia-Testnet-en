@@ -119,7 +119,9 @@ sudo journalctl -u gitopiad -f -o cat
 gitopiad keys add <yourvalidatorname>
 ```
 * Go to [Gitopia](https://gitopia.com/home) 
-**And connect with your keplr wallet**
+**and connect with your keplr wallet**
+
+**Import your 24 words mnemonics to your keplr wallet and get lore**
 
 
 
