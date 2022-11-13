@@ -33,3 +33,13 @@ echo 'export GO111MODULE=on' >> $HOME/.bash_profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
 go version
 ````
+*Cloning Gitopia and binary file configuration*
+```
+cd $HOME 
+rm -rf gitopia
+curl https://get.gitopia.com | bash
+git clone -b v1.2.0 gitopia://gitopia/gitopia
+cd gitopia 
+make install
+```
+
