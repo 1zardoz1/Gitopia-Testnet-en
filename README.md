@@ -123,6 +123,9 @@ gitopiad keys add <yourvalidatorname>
 
 **Import your 24 words mnemonics to your keplr wallet and get lore**
 
+![gitopia](https://user-images.githubusercontent.com/100621008/201544432-2e214c23-f62b-42e1-85e1-f9441889347c.png)
+
+
 
 
 
