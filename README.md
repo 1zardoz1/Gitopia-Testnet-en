@@ -42,4 +42,7 @@ git clone -b v1.2.0 gitopia://gitopia/gitopia
 cd gitopia 
 make install
 ```
+*Version check*
+***version: 1.2.0***
+
 
