@@ -150,6 +150,12 @@ gitopiad tx staking create-validator \
   --chain-id gitopia-janus-testnet-2
   ```
   ![Screenshot_3](https://user-images.githubusercontent.com/100621008/201545197-f533ce48-d548-43ac-abe5-af77ea43ab10.jpg)
+  
+  *Useful commands*
+  
+  **Check logs**
+
+
 
   
 
