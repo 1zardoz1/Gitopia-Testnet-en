@@ -128,6 +128,8 @@ gitopiad keys add <yourvalidatorname>
 **Make sync info and if you get false then create validator**
 
 *Create validator*
+
+**Customize it yourself**
 ```
 gitopiad tx staking create-validator \
   --amount 1000000utlore \
@@ -143,6 +145,9 @@ gitopiad tx staking create-validator \
   --moniker yournodename \
   --chain-id gitopia-janus-testnet-2
   ```
+  ![Screenshot_3](https://user-images.githubusercontent.com/100621008/201545197-f533ce48-d548-43ac-abe5-af77ea43ab10.jpg)
+
+  
 
 
 
