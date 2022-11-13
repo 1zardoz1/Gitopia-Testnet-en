@@ -52,5 +52,12 @@ gitopiad version --long
 ```
 gitopiad init --chain-id "$Gitopia_Chain_ID" "$moniker"
 ```
+*Genesis and addrbook installation*
+```
+wget -O $HOME/.gitopia/config/addrbook.json "http://65.108.6.45:8000/gitopia/addrbook.json"
+wget https://server.gitopia.com/raw/gitopia/testnets/master/gitopia-janus-testnet-2/genesis.json.gz
+gunzip genesis.json.gz
+mv genesis.json $HOME/.gitopia/config/genesis.json
+```
 
 
