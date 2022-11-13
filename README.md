@@ -85,6 +85,22 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.gitopia/config/config
 ```
 sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.01utlore\"/" $HOME/.gitopia/config/app.toml
 ```
+*Create service file*
+```
+sudo tee /etc/systemd/system/gitopiad.service > /dev/null <<EOF
+[Unit]
+Description=gitopia
+After=network-online.target
+[Service]
+User=root
+ExecStart=$(which gitopiad) start --home $HOME/.gitopia
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target
+EOF
+```
 
 
 
