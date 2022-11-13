@@ -154,6 +154,119 @@ gitopiad tx staking create-validator \
   *Useful commands*
   
   **Check logs**
+  ```
+  journalctl -fu gitopiad -o cat
+  ```
+  **Start service**
+  ```
+  sudo systemctl start gitopiad
+  ```
+  **Stop service**
+  ```
+  sudo systemctl stop gitopiad
+  ```
+  **Restart service**
+  ```
+  sudo systemctl restart gitopiad
+  ```
+  
+  **Synchronization info**
+  ```
+  gitopiad status 2>&1 | jq .SyncInfo
+  ```
+  **Validator info**
+  ```
+  gitopiad status 2>&1 | jq .ValidatorInfo
+  ```
+  **Node info**
+  ```
+  gitopiad status 2>&1 | jq .NodeInfo
+  ```
+  **Node id**
+  ```
+  gitopiad tendermint show-node-id
+  ```
+  **List of wallets**
+  ```
+  gitopiad keys list
+  ```
+  **Recover wallet**
+  ```
+  gitopiad keys add walletaddress --recover
+  ```
+  **Delete wallet**
+  ```
+  gitopiad keys delete walletaddress
+  ```
+  **Get wallet balance**
+  ```
+  gitopiad query bank balances walletaddress
+  ```
+  **Transfer funds**
+  ```
+  gitopiad tx bank send yourwalletaddress receiverwalletaddress 10000000utlore
+  ```
+  **Exit from jail**
+  ```
+  gitopiad tx slashing unjail \
+  --broadcast-mode=block \
+  --from=yournodename \
+  --chain-id=gitopia-janus-testnet-2 \
+  --gas=auto
+  ```
+  **Delete node**
+  ```
+sudo systemctl stop gitopiad
+sudo systemctl disable gitopiad
+sudo rm /etc/systemd/system/gitopia* -rf
+sudo rm $(which gitopiad) -rf
+sudo rm $HOME/.gitopia* -rf
+sudo rm $HOME/gitopia -rf
+sed -i '/GITOPIA_/d' ~/.bash_profile
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
