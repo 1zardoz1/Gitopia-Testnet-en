@@ -59,5 +59,11 @@ wget https://server.gitopia.com/raw/gitopia/testnets/master/gitopia-janus-testne
 gunzip genesis.json.gz
 mv genesis.json $HOME/.gitopia/config/genesis.json
 ```
+*Seed and Peers arrange*
+```
+SEEDS="399d4e19186577b04c23296c4f7ecc53e61080cb@seed.gitopia.com:26656"
+PEERS=""
+sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.gitopia/config/config.toml
+```
 
 
