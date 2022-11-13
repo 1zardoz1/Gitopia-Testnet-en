@@ -125,7 +125,25 @@ gitopiad keys add <yourvalidatorname>
 
 ![gitopia](https://user-images.githubusercontent.com/100621008/201544432-2e214c23-f62b-42e1-85e1-f9441889347c.png)
 
-*Make sync info and if you get  false then create validator*
+**Make sync info and if you get false then create validator**
+
+*Create validator*
+```
+gitopiad tx staking create-validator \
+  --amount 1000000utlore \
+  --from yournodename \
+  --identity=keybase ID \
+  --website="yourwebsite" \
+  --details="aboutyourself" \
+  --commission-max-change-rate "0.01" \
+  --commission-max-rate "0.2" \
+  --commission-rate "0.1" \
+  --min-self-delegation "1" \
+  --pubkey  $(gitopiad tendermint show-validator) \
+  --moniker yournodename \
+  --chain-id gitopia-janus-testnet-2
+  ```
+
 
 
 
