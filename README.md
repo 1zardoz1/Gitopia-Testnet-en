@@ -10,6 +10,7 @@
 |    4  |   8-16     |    400+    |
 
 *System Update*
+
 ´´´
 sudo apt update && sudo apt upgrade -y
 ´´´
