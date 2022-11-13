@@ -119,6 +119,8 @@ sudo journalctl -u gitopiad -f -o cat
 gitopiad keys add <yourvalidatorname>
 ```
 * Go to [Gitopia](https://gitopia.com/home) 
+**And connect with your keplr wallet**
+
 
 
 
