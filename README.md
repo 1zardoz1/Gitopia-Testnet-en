@@ -109,9 +109,16 @@ sudo systemctl restart gitopiad
 sudo journalctl -u gitopiad -f -o cat
 ```
 *Create wallet*
+
 **Enter your wallet name**
+
 **Don't forget save your mnemonic**
+
 ![Screenshot_2](https://user-images.githubusercontent.com/100621008/201543404-2d5bf989-3086-430c-82fb-57870b39fe53.jpg)
+```
+gitopiad keys add <yourvalidatorname>
+```
+
 
 
 
