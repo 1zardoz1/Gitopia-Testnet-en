@@ -101,6 +101,13 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 EOF
 ```
+*Node Initialization*
+```
+sudo systemctl daemon-reload
+sudo systemctl enable gitopiad
+sudo systemctl restart gitopiad 
+sudo journalctl -u gitopiad -f -o cat
+```
 
 
 
