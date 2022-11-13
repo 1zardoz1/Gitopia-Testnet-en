@@ -13,4 +13,8 @@
 ```
 sudo apt update && sudo apt upgrade -y
 ```
+*Required library installation*
+```
+sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
+```
 
