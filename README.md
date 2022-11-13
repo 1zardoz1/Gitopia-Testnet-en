@@ -113,11 +113,12 @@ sudo journalctl -u gitopiad -f -o cat
 **Enter your wallet name**
 
 **Don't forget save your mnemonic**
-
-![Screenshot_2](https://user-images.githubusercontent.com/100621008/201543404-2d5bf989-3086-430c-82fb-57870b39fe53.jpg)
 ```
 gitopiad keys add <yourvalidatorname>
 ```
+
+![Screenshot_2](https://user-images.githubusercontent.com/100621008/201543404-2d5bf989-3086-430c-82fb-57870b39fe53.jpg)
+
 * Go to [Gitopia](https://gitopia.com/home) 
 **and connect with your keplr wallet**
 
@@ -126,6 +127,9 @@ gitopiad keys add <yourvalidatorname>
 ![gitopia](https://user-images.githubusercontent.com/100621008/201544432-2e214c23-f62b-42e1-85e1-f9441889347c.png)
 
 **Make sync info and if you get false then create validator**
+```
+gitopiad status 2>&1 | jq .SyncInfo
+```
 
 *Create validator*
 
