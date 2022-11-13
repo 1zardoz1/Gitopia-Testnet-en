@@ -48,5 +48,9 @@ make install
 ```
 gitopiad version --long
 ```
+*Start*
+```
+gitopiad init --chain-id "$Gitopia_Chain_ID" "$moniker"
+```
 
 
