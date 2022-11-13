@@ -118,6 +118,7 @@ sudo journalctl -u gitopiad -f -o cat
 ```
 gitopiad keys add <yourvalidatorname>
 ```
+* Go to [Gitopia](https://gitopia.com/home) 
 
 
 
