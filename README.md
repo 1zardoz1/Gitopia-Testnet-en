@@ -17,4 +17,9 @@ sudo apt update && sudo apt upgrade -y
 ```
 sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
 ```
+*Set your validator name*
+```
+moniker="YourValidatorName"
+GITOPIA_CHAIN_ID="gitopia-janus-testnet-2"
+```
 
