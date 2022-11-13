@@ -225,7 +225,7 @@ sudo rm $HOME/gitopia -rf
 sed -i '/GITOPIA_/d' ~/.bash_profile
 ```
 
-* [Gitopia website](https://gitopia.com/)
+* [Gitopia web](https://gitopia.com/)
 * [Gitopia explorer](https://explorer.gitopia.com/)
 * [Discord](https://discord.gg/Dku9mezt)<br>
 
