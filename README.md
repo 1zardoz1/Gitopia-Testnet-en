@@ -44,6 +44,6 @@ make install
 ```
 *Version check*
 
-***version: 1.2.0***
+**version: 1.2.0**
 
 
