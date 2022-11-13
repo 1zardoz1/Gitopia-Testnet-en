@@ -81,5 +81,10 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $
 indexer="null"
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.gitopia/config/config.toml
 ```
+*Arrange gas price*
+```
+sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.01utlore\"/" $HOME/.gitopia/config/app.toml
+```
+
 
 
