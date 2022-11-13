@@ -22,4 +22,4 @@ sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
 moniker="YourValidatorName"
 GITOPIA_CHAIN_ID="gitopia-janus-testnet-2"
 ```
-
+![name](https://user-images.githubusercontent.com/100621008/201539910-706dc9d9-db6c-4cfc-a851-5a248c4a6937.jpg)
