@@ -45,5 +45,8 @@ make install
 *Version check*
 
 **version: 1.2.0**
+```
+gitopiad version --long
+```
 
 
